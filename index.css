@@ -8,7 +8,11 @@ body, html{
         font-family: 'Open Sans', sans-serif;
 	background: grey;
 	color: #fff;
-	background: url(./images/back.jpg) no-repeat center center fixed;
+	background: url(./images/back.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
 }
 header {
 	margin-top: 1em;
