@@ -55,7 +55,7 @@ header > li{
 	display: inline-block;
 	font-size: 1.0em;
 	font-weight: bold;
-	
+	border-radius: 1em;
 	background-color: #000;
 	color: #fff;
 	padding: 0.3em 1.6em;
