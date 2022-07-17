@@ -41,9 +41,11 @@ header > h1{
 	border: 1px solid #fff;	
 
 }
-h2{
-        display: center;
+header > h2{
+        display: inline-block;
         font-size: 1.0em;
+		font-weight: bold;
+		border-radius: 1em;
         background-color:#000a;
         color:#fff;
         padding: 0.3em 1.6em;
@@ -52,6 +54,8 @@ h2{
 header > li{
 	display: inline-block;
 	font-size: 1.0em;
+	font-weight: bold;
+	border-radius: 1em;
 	background-color: #000;
 	color: #fff;
 	padding: 0.3em 1.6em;
