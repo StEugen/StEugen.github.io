@@ -45,8 +45,9 @@ header > nav{
 
 a:hover{
   text-decoration: none; 
-  background-color: #8ccebf;
   color: #1b1b32;
+  background-color: #8ccebf;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 a:link {text-decoration: none; }

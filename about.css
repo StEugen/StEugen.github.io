@@ -7,7 +7,7 @@ a:hover {
 	box-shadow: purple 3px 3px 3px 3px;
 	transition: all 0.3s ease-in-out 0s;
 	border: 1px purple;
-	border-radius: 4px;
+	border-radius: 1em;
 }
 a:active {text-decoration: none; }
 body, html{
