@@ -44,7 +44,7 @@ h1{
 	border: 1px solid #fff;
 }
 p{
-	float: left;
+	display: inline-block;
 	font-size: 0.8em;
 	font-weight: bold;
 	border-radius: 1em;
@@ -53,7 +53,11 @@ p{
 	padding: 0.4em 1.3em;
 	border: 1px solid #fff;
 	box-shadow: purple 2px 2px 80px 2px;
-	
+	margin-left: 15px;
+}
+
+.greeting{
+	margin-top: 30px;
 }
 
 .button {
@@ -72,3 +76,5 @@ p{
 	left: 0;
 	bottom: 0;
   }
+
+ 
