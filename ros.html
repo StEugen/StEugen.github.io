@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Technical Documentation</title>
-  <link rel="stylesheet" href="./ros.css" />
+  <link rel="stylesheet" type="text/css"  href="./ros.css" />
+  <link rel="shortcut icon" href="./images/404.ico">
 </head>
 <header>
     <h1>Quick guide to ROS</h1>
@@ -39,13 +40,40 @@
         <p>ROS is highly developed robotic System, also because of its open-source philosophy it is easy to get into and a lot of projects
             are done not only by professional but by enthusiast too.
         </p>
-      <code></code>
     </section>
 
     <section class="main-section" id="installation">
       <h1>installation</h1>
-      <p></p>
-      <code></code>
+      <h3>Prepare remote PC first!</h3>
+      <p>Well, to use ROS we need both: robot with ROS and remote PC (Host) with ROS. So, let us see how to prepare remote PC 
+        for ROS first.
+      </p>
+      <p>It's recommended to use ROS in Ubuntu or Ubuntu based disributives.</p>
+      <ol>
+        <li>Download Ubuntu and install it.</li>
+        <li>
+          Install ROS on remote PC (further you will see a set of commands to instal ROS)
+          <ol>
+            <li><code>$ sudo apt update</code></li>
+            <li><code>$ sudo apt upgrade</code></li>
+            <li><code>$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh</code></li>
+            <li><code>$ chmod 755 ./install_ros_noetic.sh</code></li>
+            <li><code>$ bash ./install_ros_noetic.sh</code></li>
+          </ol>
+          <li>Install all dependencies.</li>
+            <code>
+              $ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+                ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+                ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
+                ros-noetic-rosserial-python ros-noetic-rosserial-client \
+                ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+                ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+                ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
+                ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+            </code>
+        </li>
+      </ol>
+      <p>So, now ROS is set up. Let us see basic commands and talk a bit about this "Operating System"</p>
     </section>
 
     <section class="main-section" id="basic-commands">
@@ -55,7 +83,10 @@
       <code></code>
     </section>
     
-    <section class="main-section"></section>
+    <section class="main-section" id="use-of-ros">
+      <h1>Use of ROS</h1>
+      <p>some text</p>
+    </section>
   </main>
 </body>
 </html>
