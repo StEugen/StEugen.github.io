@@ -1,6 +1,14 @@
 a:link {text-decoration: none; }
 a:visited {text-decoration: none; }
-a:hover {text-decoration: none; }
+a:hover {
+	text-decoration: none; 
+	color: whitesmoke;
+	background-color: black;
+	box-shadow: purple 3px 3px 3px 3px;
+	transition: all 0.3s ease-in-out 0s;
+	border: 1px purple;
+	border-radius: 4px;
+}
 a:active {text-decoration: none; }
 body, html{
         margin: 0;
@@ -91,4 +99,3 @@ h1{
 	margin-left: 15px;
 	max-width: 400px;
   }
- 
