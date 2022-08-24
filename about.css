@@ -43,7 +43,7 @@ h1{
 	padding: 0.3em 1.6em;
 	border: 1px solid #fff;
 }
-p{
+.greeting{
 	display: inline-block;
 	font-size: 0.8em;
 	font-weight: bold;
@@ -54,11 +54,12 @@ p{
 	border: 1px solid #fff;
 	box-shadow: purple 2px 2px 80px 2px;
 	margin-left: 15px;
+	margin-top: 30px;
+	width: 400px;
+	max-width: 400px;
 }
 
-.greeting{
-	margin-top: 30px;
-}
+
 
 .button {
 	background-color: rgba(0, 0, 0, 0.356); 
@@ -77,4 +78,17 @@ p{
 	bottom: 0;
   }
 
+  .myway{
+	display: block;
+	font-size: 0.8em;
+	font-weight: bold;
+	border-radius: 1em;
+	background-color: #000a;
+	color: #fff;
+	padding: 0.4em 1.3em;
+	border: 1px solid #fff;
+	box-shadow: purple 2px 2px 80px 2px;
+	margin-left: 15px;
+	max-width: 400px;
+  }
  
