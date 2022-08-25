@@ -85,3 +85,9 @@ h3{
 p{
   margin: 10px;
 }
+
+.div-basics > br{
+  display: block;
+  content: "";
+  margin-top: 2px;
+}

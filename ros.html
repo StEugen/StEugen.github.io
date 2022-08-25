@@ -46,7 +46,7 @@
     <section class="main-section" id="installation">
       <h1>installation</h1>
       <h3>Prepare remote PC first!</h3>
-      <p>Well, to use ROS we need both: robot with ROS and remote PC (Host) with ROS. So, let us see how to prepare remote PC 
+      <p>Well, to use ROS we a PC (Host) with ROS. So, let us see how to prepare a remote PC 
         for ROS first.
       </p>
       <p>It's recommended to use ROS in Ubuntu or Ubuntu based disributives.</p>
@@ -79,7 +79,21 @@
 
     <section class="main-section" id="basics">
       <h1>Basics</h1>
-      <p></p>
+      <div class="div-basics">
+      <p>So, without further interruption let us see basics of ROS.</p>
+      <br>
+      <p>
+        First of all, we should talk about <span style="font-weight:bold">masters</span> and slaves. Master is a name server for "node-to-node" connection and messaging.
+         Master allows you to get information about any node when you ask, also it provides a way to communicate between topics and services.
+         It uses XMLRPC(XML Remote Rrocedure Call), which is based on HTTP protocol but does not provide a long connection. So, that means,
+         slaves can access master only when they need (POST/GET requests). When you execute ROS, the master is configured so it will use
+         URI address and port you have entered in ROS_MASTER_URI field (we will talk about this just a little bit later). 
+      </p>
+      <br>
+      <p>
+        <span style="font-weight:bold">Node</span>  
+      </p>
+    </div>
       <code></code>
       <code></code>
     </section>
