@@ -79,10 +79,15 @@
 
     <section class="main-section" id="basics">
       <h1>Basics</h1>
+      <div class="menu">
+        <a href="#master">Master</a>
+        <a href="#node">Node</a>
+        <a href="#package">Package</a>
+      </div>
       <div class="div-basics">
       <p>So, without further interruption let us see basics of ROS.</p>
       <br>
-      <p>
+      <p id="master">
         First of all, we should talk about <span style="font-weight:bold">masters</span> and slaves. Master is a name server for "node-to-node" connection and messaging.
          Master allows you to get information about any node when you ask, also it provides a way to communicate between topics and services.
          It uses XMLRPC(XML Remote Rrocedure Call), which is based on HTTP protocol but does not provide a long connection. So, that means,
@@ -90,8 +95,15 @@
          URI address and port you have entered in ROS_MASTER_URI field (we will talk about this just a little bit later). 
       </p>
       <br>
-      <p>
-        <span style="font-weight:bold">Node</span>  
+      <p id="node">
+        <span style="font-weight:bold">Node</span> is the smallest unit of proccesses running in ROS. It is more likely executable
+        It is recommended to make single node for each purpose. Node register itself: name, message type, URI address and port 
+        number. There is two conditions of node: subscriber, publisher, service server or service client. Nodes exchange information
+        using topics and services. XMLRPC for communication is used with master and it also can use TCPROS.
+      </p>
+      <br>
+      <p id="package">
+        <span style="font-weight: bold">Package</span> 
       </p>
     </div>
       <code></code>
