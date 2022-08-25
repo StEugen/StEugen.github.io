@@ -40,6 +40,8 @@ header > nav{
 
 .nav-link{
   color: #fff;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 
