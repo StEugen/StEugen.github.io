@@ -35,7 +35,7 @@ header > h1{
 header > nav{
   width: 50%;
 	max-width: 300px;
-	height: 50px;
+	height: 60px;
   text-align: left;
 }
 
@@ -48,8 +48,11 @@ header > nav{
 
 a:hover{
   text-decoration: none; 
-  color: #1b1b32;
-  background-color: #8ccebf;
+  color: #fff;
+  background-color: #1b1b32;
+  border:3px solid #1b1b32 ;
+  border-radius: 3px 3px 3px;
+  box-shadow: #8ccebf 2px 2px 0px 2px;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -111,10 +114,12 @@ p{
   color: #fff;
   justify-content: space-between;
   margin: 10px;
+  background-color: #1b1b32;
 }
 
 .menu > a:hover{
-  color: #1b1b32;
-  border: 3px solid;
+  color: #fff ;
+  border: 3px solid #1b1b32;
   border-radius:3px 3px 3px;
+  box-shadow: #8ccebf 4px 4px 0px 2px;
 }
