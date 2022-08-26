@@ -105,6 +105,8 @@ p{
   margin-top: 0;
   border: 2px solid #1b1b32;
   max-width: 500px;
+  min-height: 28px;
+  max-height: 28px;
   border-radius: 5px 5px 5px 5px;
   background-color: #1b1b32;
   text-align: center;
