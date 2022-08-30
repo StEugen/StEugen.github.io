@@ -5,14 +5,17 @@
   }
 
   body, html{
-    background-color: #FFF5E4;
+    background-color: #16213E;
+    color: #fff;
+    text-align: center;
   }
   
 header{
+    color: #fff;
     margin-top: 0;
     margin-left: 5%;
     margin-bottom: 10px;
-    background-color: aqua;
+    background-color: #0F3460;
     padding: 0;
     width: 90%;
     height: 10%;
@@ -31,4 +34,62 @@ main{
 .members-img{
   width: 150px;
   height: 100px;
+}
+
+
+a:link {
+  text-decoration: none; 
+  color:#fff;
+}
+a:visited {text-decoration: none; }
+a:hover {
+  text-decoration: none; 
+  color:aqua; 
+}
+a:active {text-decoration: none; }
+
+
+.form{
+  margin-left: 289px;
+  display: inline-block;
+  border: 2px solid #0F3460;
+  border-radius: 2px 2px 2px 2px;
+  max-width: 200px;
+  max-height: 500px;
+}
+
+.members{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#name-text{
+  background-color: #0F3460;
+  color: #fff;
+  border: 0;
+  border-radius: 2px 2px 2px 2px;
+  margin: 10px;
+}
+
+#email{
+  background-color: #0F3460;
+  color: #fff;
+  border: 0;
+  border-radius: 2px 2px 2px 2px;
+  margin: 10px;
+}
+
+#sugestions{
+  background-color: #0F3460;
+  color: #fff;
+  border: 0;
+  border-radius: 2px 2px 2px 2px;
+  margin: 10px;
+}
+
+#submit{
+  background-color: #0F3460;
+  color: #fff;
+  border: 0;
 }
