@@ -3,52 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Landing</title>
+    <title>404_Group</title>
     <link rel="stylesheet" href="PageNotFound.css" >
+    <link rel="shortcut icon" href="./images/404.ico" >
   </head>
   <body>
     <header id="header">
       <img src="" id="header-img" />
-      <h1>Test Landing</h1>
-      <nav id="nav-bar">
+      <nav id="navbar">
+        <h1><404/></h1>
         <ul>
         <li><a class="nav-link" href="#info">Information</a></li>
         <li><a class="nav-link" href="#members">members</a></li>
-        <li><a class="nav-link" href="#form">Contact us</a></li>
         </ul>
       </nav>
     </header>
     <main>
-    <div id="info" class="info">
-        <h1>Information</h1>
-        <p>
-            Test Information about this test company.
-        </p>
-    </div>
-    <div id="members">
-        <h1>Members of this test company</h1>
+      <div id="info">
+        <h1>About us</h1>
+        <p></p>
+      </div>
+      <div id="members" class="div-members">
+        <h1>Members of our organisations</h1>
         <div class="members">
-        <figure>
-            <img src="https://miro.medium.com/max/1400/0*xMaFF2hSXpf_kIfG.jpg" class="members-img" >
-            <figcaption>Member 1</figcaption>
+          <figure>
+            <a href="https://github.com/StEugen">
+              <img src="https://raw.githubusercontent.com/StEugen/StEugen.github.io/main/images/prof.jpg" class="members-img" >
+            </a>
+            <a href="https://github.com/StEugen">
+            <figcaption>StEugen</figcaption>
+            </a>
         </figure>
         <figure>
-            <img src="https://miro.medium.com/max/1400/0*xMaFF2hSXpf_kIfG.jpg" class="members-img " >
-            <figcaption>Member 1</figcaption>
+            <a href="https://github.com/Zezypups">
+              <img src="https://github.com/Zezypups/Zezypups.github.io/blob/main/images/samurai.jpg?raw=true" class="members-img" >
+            </a>
+            <a href="https://github.com/Zezypups">
+            <figcaption>Zezypups</figcaption>
+            </a>
         </figure>
         </div>
-    </div>
-    <div class="form">
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <h1>Contact us</h1>
-      <input type="text" placeholder="Name" id="name-text"> 
-      <input id="email" type="email" name ="email" placeholder="Email" >
-      <textarea id="sugestions" rows="5" cols="10" placeholder="your sugestions"></textarea>
-      <input id="submit" type="submit" >
-    </form>
-    </div>
-    <video id="video" src="">
-    </video>
+      </div>
     </main>
   </body>
 </html>
