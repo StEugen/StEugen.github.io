@@ -76,13 +76,19 @@ main{
   text-align: center;
 }
 
-.div-members{
-  display: inline-block;
+.members{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .members-img{
   width: 220px;
   border-radius: 100%;
+  
 }
 
 .members > figure > a{
