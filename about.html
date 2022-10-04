@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About StEugen</title>
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <link rel="shortcut icon" href="./images/404.ico">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./about.css" >
 </head>
+<header>
+  <nav id="navbar">
+    <h1>Portfolio</h1>
+    <ul>
+    <li><a href="#welcome-section" class="nav-link">Welcome!</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    </ul>
+  </nav>
+</header>
 <body>
-    <main>
-        <header>
-            <img src="./images/prof.jpg">
-            <h1>Stephen Eugen</h1>
-        </header>
-        <p class="greeting">
-            Hello! My name is Stephen Eugen and I'm a junior programmer.<br>
-	    Interests: Backend/Frontend, cybersecurity, AI and robotics.
-        </p>
-        <div class="myway">
-        <p>Well, here you can learn something about my way in IT</p>
-        <ul>
-            <li><a href="./ros.html">ROS</a></li>
-        </ul>
-        </div>
-        <a href="./index.html" class="button">Go back</a>
-    </main>
+  <img src="https://raw.githubusercontent.com/StEugen/StEugen.github.io/main/images/prof.jpg" alt="profile-picture" />
+  <section id="welcome-section">
+    <h1>Welcome!</h1>
+  </section>
+  <section id="projects">
+    <h3>My projects</h3>
+    <ul class="projects">
+      <li class="project-tile"><a href="https://steugen.github.io/ros.html">ROS</a></li>
+    </ul>
+  </section>
+  <div class="profile-link">
+  <a href="https://github.com/StEugen" id="profile-link" target="_blank">My Github</a>
+  </div>
 </body>
 </html>
